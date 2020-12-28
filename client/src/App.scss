@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//fonts
+// @font-face {
+//   font-family: 'Poppins';
+//   font-style: normal;
+//   font-weight: normal;
+//   src: local('Poppins'),
+//     url('./Assets/Fonts/Poppins/Poppins-Bold.ttf') format('ttf');
+// }
+
+@font-face {
+  font-family: 'WickedGrit';
+  font-style: normal;
+  font-weight: normal;
+  src: local('WickedGrit'), url('./Assets/Fonts/WickedGrit.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Made_Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Made_Bold'),
+    url('./Assets/Fonts/made_tommy_soft/MADE\ Tommy\ Soft\ Bold\ Outline\ PERSONAL\ USE.otf')
+      format('otf');
+}
+
+Body {
+  font-family: 'Roboto';
+}
+
+//landing page
+
+.landing-container {
+  text-align: center;
+  h1 {
+    font-family: 'Made_Bold';
+    -webkit-text-stroke: 1px #111;
+    color: white;
+    font-size: 10vw;
+    font-variant-caps: normal;
+    text-transform: uppercase;
+  }
+}

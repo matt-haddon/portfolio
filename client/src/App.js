@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App-header">
-      <h3>Just kidding</h3>
+      <Landing />
     </div>
   );
 }
