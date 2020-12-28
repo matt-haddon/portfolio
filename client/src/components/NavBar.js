@@ -1,20 +1,21 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="navbar">
       <ul>
         <li>
-          <a>Home</a>
+        <AnchorLink href='#Home'>Home</AnchorLink>
         </li>
         <li>
-          <a>Portfolio</a>
+        <AnchorLink href='#Portfolio'>Portfolio</AnchorLink>
         </li>
         <li>
-          <a>Technologies</a>
+        <AnchorLink href='#Technologies'>Technologies</AnchorLink>
         </li>
         <li>
-          <a>Contact Me</a>
+        <AnchorLink href='#Contact'>Contact Me</AnchorLink>
         </li>
       </ul>
     </div>
