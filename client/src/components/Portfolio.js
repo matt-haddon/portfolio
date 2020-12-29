@@ -29,7 +29,11 @@ export default function Portfolio() {
         <div className="go-to-github">
           <p>
             Check out more projects on my{' '}
-            <a target="_blank" href="https://github.com/matt-haddon">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/matt-haddon"
+            >
               GitHub
             </a>
           </p>
