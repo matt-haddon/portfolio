@@ -10,7 +10,7 @@ export default function Portfolio() {
         </div>
         <div className="DreamHome-container">
           <div className="DreamHome-text">
-            <h3>Find your dream home...</h3>
+            <h4>Find your dream home...</h4>
             <p>
               With remote work becoming more prevalent, especially with
               Coronavirus, living a commutable distance from the office is no

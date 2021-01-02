@@ -1,6 +1,6 @@
 import React from 'react';
 import html from '../../Assets/Image/icons/html.png';
-import css from '../../Assets/Image/icons/css.png';
+import css from '../../Assets/Image/icons/css.svg';
 import scss from '../../Assets/Image/icons/sass.png';
 import javascript from '../../Assets/Image/icons/js.png';
 import react from '../../Assets/Image/icons/react.svg';
