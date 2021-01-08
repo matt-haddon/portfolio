@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import pdf from '../MattCV.pdf';
+
 
 const Ul = styled.ul`
   list-style: none;
@@ -12,7 +14,7 @@ const Ul = styled.ul`
     padding: 18px 50px;
 
     a{
-       
+
         color: inherit;
         text-decoration: none;
 
@@ -32,20 +34,20 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
-     
+
     }
   }
 `;
 
 const RightNav = ({ open, setOpen }) => {
-    
+
   return (
     <Ul open={open} className="navbar">
       <li><AnchorLink href='#Home' onClick={()=>{setOpen(false)}}>Home</AnchorLink ></li>
+      <li><a href={pdf}>Resume</a></li>
       <li><AnchorLink href='#Portfolio' onClick={()=>{setOpen(false)}}>Portfolio</AnchorLink></li>
       <li><AnchorLink href='#Technologies' onClick={()=>{setOpen(false)}}>Technologies</AnchorLink></li>
       <li><AnchorLink href='#Contact' onClick={()=>{setOpen(false)}}>Contact Me</AnchorLink></li>
-
     </Ul>
   )
 }
